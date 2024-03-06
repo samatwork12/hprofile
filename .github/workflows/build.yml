@@ -11,7 +11,11 @@ jobs:
         with:
           java-version: '11'
           distribution: 'adopt'
-      - name: Testing workflow
+      - name: Testing with Maven
         run: |
-          echo "Running workflow"
+          echo "Running maven workflow"
           mvn test
+      - name: Checkstyle
+        run: |
+          echo "Running checkstyle"
+          mvn checkstyle:check
