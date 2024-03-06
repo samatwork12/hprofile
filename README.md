@@ -1,6 +1,6 @@
 # Prerequisites
 #####
-- JDK 11
+- JDK 11 # Installed
 - Maven 3
 - MySQL 8 
 
